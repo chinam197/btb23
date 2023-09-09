@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai1</title>
+    <script src="https://kit.fontawesome.com/b2a91fb26e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-header">
+        <div class="container-logo">
+        <a href="#"><img src="https://cdnweb.dantri.com.vn/dist/static-logo.1-0-1.742f36bc45f3443d0e59.svg" alt="logo dantri">   </a> 
+        </div>
+        <nav class="navbar">
+        <ul>
+            <li><a href="#"><img src="https://cdnweb.dantri.com.vn/dist/static-fica-logo.1-0-1.2435f041ebf869641575.jpg" alt="logo-item"> <span>Fica</span></a></li>
+            <li><a href="#"><img src="https://cdnweb.dantri.com.vn/dist/static-avatar-default.1-0-1.b474c6ca2d1abee5b89b.png" alt="logo-item">DTinews</a></li>
+            <li>
+                <div>
+                    <strong>TP.Hồ Chí Minh</strong>
+                    
+                    <p>thứ 5, 07/09/2003</p>
+
+                </div>
+                
+            </li>
+            <li class="user-login"><button class="login"><span>Đăng nhập</span> <i class="fa-regular fa-user"></i></button></li>
+            <li></li>
+        </ul>
+        </nav>
+        
+    </header>
+    <div class="user display-none-user">
+        <div class="login-or-sign-up">
+            
+            <button id="button-login-account" ><span>Đăng nhập</span></button>
+            <button id="button-create-account"><span>Đăng ký</span></button>
+        </div>
+        <div class="login-user script-login-user"> 
+            <p class="text-center">với các tài khoản mạng xã hội</p>
+            <div class="login-social-network">
+              <button class="button-add-social-media"><img src="./logo/logoGoogle.svg" alt="imggg"><span>Google</span></button>
+              <button class="button-add-social-media"><img src="./logo/logoFb.svg" alt="imgfb"> <span>Facebook</span></button>
+            </div>
+            <p class="or-input">hoặc</p>
+          
+            <div class="container-form-input">
+                <p class="successful-login scrip-successful-login successful-login-color" >Account not existed</p>
+                <form action="">
+                    <p class="title-padding ">Email</p>
+                    <div class="wrapper-input">
+                         <input type="email" placeholder="Email" class="script-input-email">
+                         <p class="input-info-please script-message-input-email">vui lòng nhập thông tin</p>
+                         <p class="correct-format-email script-correct-format-email">Vui lòng nhập đúng định dạng Email</p>
+                    </div>
+                   
+                    
+                    <p class="title-padding">Mật khẩu</p>
+                    <div class="wrapper-input">
+                        
+                        <input type="password" placeholder="Mật khẩu" id="seen-password" class="script-input-password">
+                        <p class="input-info-please script-message-input-password">vui lòng nhập thông tin </p>
+                        <img src="./icon/eye-display.svg" alt="img" class="script-display-password img-password">
+                        <img src="./icon/icon-eye-none.svg" alt="img" class="script-display-none-password img-password none-password">
+                    </div>
+                   <a href="#" class="forgot-password">Quên mật khẩu?</a>
+
+                   <button type="button" class="script-begin-login">Đăng nhập</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="creat-new-account script-new-account turn-of-new-account">
+            
+            <form action="#">
+                <p class="text-center">Hoàn thành đăng ký, và bắt đầu trải nghiệm ngay!</p>
+                <div>
+                    <p>Họ và tên</p>
+                <input type="text" class="script-input-name input-name">
+                 <p>Vui lòng nhập thông tin</p> 
+                </div>
+
+                <div>
+                    <p>Email</p>
+                    <input type="text" class="script-input-email input-email">
+                <p>Vui lòng nhập thông tin</p>
+
+                </div>
+                <div>
+                    <p>Mật khẩu</p>
+                    <div class="wrapper-input">
+                        
+                        <input type="password" placeholder="Mật khẩu" id="seen-password2" class="script-input-password">
+                        <p class="input-info-please script-message-input-password">vui lòng nhập thông tin </p>
+                        <img src="./icon/eye-display.svg" alt="img" class="script-display-password img-password">
+                        <img src="./icon/icon-eye-none.svg" alt="img" class="script-display-none-password img-password none-password">
+                         <p>Vui lòng nhập thông tin</p>
+
+                    </div>
+                    
+               
+                </div>
+                <p>Bằng cách đăng ký tài khoản, bạn cũng đồng thời chấp nhận mọi <a href="#">điều kiện về qui định và chính sách của Dân trí</a></p>
+
+                <button type="button">Đăng ký</button>
+            </form>
+
+         </div>
+        <div class="user-sign-up">
+
+        </div>
+    </div>
+    <div class="addoverlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>

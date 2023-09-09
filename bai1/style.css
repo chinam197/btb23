@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    font-size: 10px;
+}
+:root{
+    --color-red :red;
+}
+body{
+    font-size: 1.6rem;
+}
+.container-header{
+    max-width: 1200px;
+    margin: 0px auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-logo a > img {
+    height: 39px;
+}
+li > a > img{
+    height: 26px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+ul li a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+button {
+   border: 6px;
+    
+}
+.login{
+    padding : 10px 25px;
+    border-radius: 5px;
+
+}
+
+.user{
+    
+    width: 430px;
+    height: 530px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+    border-radius: 6px;
+      
+}
+
+.login-or-sign-up{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login-background-color{
+    background-color: rgb(255, 255, 255);
+}
+.login-or-sign-up button{
+font-size: 50px;
+flex-basis: 50%;
+
+font-size: 30px;
+text-align: center;
+line-height: 30px;
+}
+
+.text-center{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.title-padding {
+    margin-left: 20px;
+}
+.login-social-network{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+.button-add-social-media{
+    display: flex;
+    align-items: center;
+    flex-basis: 45%;
+    border-radius: 4px;
+    justify-content: center;
+    gap: 10px;
+   padding: 5px;
+}
+.or-input{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+input{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: #ccc;
+   
+    
+}
+.display-none-user{
+    display: none;
+}
+button span {
+    font-size: 16px;
+}
+.script-on-window-input{
+    display: block;
+    z-index: 99;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.on-overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;  
+    background-color: rgba(0, 0, 0, 0.589);
+    z-index: 98;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+
+
+.or-input{
+    text-align: center;
+}
+.container-form-input{
+    width: 390px;
+    margin: 0 auto;
+}
+
+.wrapper-input{
+    position: relative;
+    width: 350px;
+    height: 44px;
+    
+    margin: 0 auto 30px auto;
+}
+.img-password{
+   position: absolute;
+    top: 50%;
+    right: 14px;
+    transform: translateY(-50%);
+    height: 14px;
+}
+.forgot-password{
+    text-align: right;
+   display: block;
+   margin-top: 13px;
+   color: gray;
+   font-size: 14px;
+
+}
+button[type="button"]{
+    width: 100%;
+    height: 50px;
+    background-color:#1a7900;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+.input-info-please{
+display: none;
+
+
+}
+.none-password{
+    display: none;
+}
+.display-error{
+display: block;
+   color: var(--color-red);
+}
+.correct-format-email{
+   color: var(--color-red);
+   display: none;
+}
+
+.boder-input {
+    border-color: red;
+}
+
+.creat-new-account{
+    width: 80%;
+    margin: 0 auto;
+    height:auto;
+      
+}
+
+.creat-new-account  input{
+    height: 44px;
+}
+.successful-login-color{
+    display: block;
+    color: red;
+}
+.successful-login{
+    display: none;
+}
+
+/*  */
+
+.creat-new-account p{
+    margin-bottom:3px ;
+}
+.turn-of-new-account{
+    display: none;
+}
